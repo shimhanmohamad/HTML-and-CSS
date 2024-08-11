@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-image:url("4452317.jpg");
+    color:white;
+    padding: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    margin: 50px;
+    text-align: center;
+}
+.one{
+    margin: 30px;
+    cursor: pointer;
+}
+.one :hover{
+    color: darkblue;
+}
+.im{
+    margin-bottom:20px;
+    display: inline;
+}
+.im1{
+    display: inline;
+}
+.boxpizza{
+    background-image: url("pizza-hut-share-the-good-time-rn9pa2vmhbmufwk9.webp");
+    margin: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: left;
+    color: black;
+}
+
+.boxkfc{
+    background-image: url("kfc1.png");
+    margin: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: start;
+}
+.box{
+    background-image: url("Mac.png");
+    margin: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-align: start;
+}
+
+.restaurents{
+    text-align: center;
+}
+a{  
+    text-align: cente;
+}
+.one{
+    display: inline;
+}
+.one:hover{
+    color: darkblue;
+}

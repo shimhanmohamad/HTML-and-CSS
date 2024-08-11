@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+}
+p{
+    margin: 20px;
+    padding: 20px;
+    background-color: pink;
+    border-style: solid;
+    border-width: 2px;
+}

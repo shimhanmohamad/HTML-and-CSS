@@ -1,0 +1,74 @@
+/* Reset styles */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Global font and box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Basic body styles */
+body {
+    background-color: #eeeeee;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Link styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+/* Default placeholder style for inputs */
+::placeholder {
+    color: #888;
+    opacity: 1;
+    /* Override default opacity in some browsers */
+}
+
+/* Input and button focus state */
+input:focus,
+button:focus,
+textarea:focus {
+    outline: 2px solid #4a90e2;
+}
